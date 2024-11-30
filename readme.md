@@ -1,6 +1,6 @@
 # Efficient Fine-tuning of Quantized Language Models for Medical Domain Adaptation
 
-This repository contains the implementation and results of a study on **efficient fine-tuning of large language models (LLMs)** for the medical domain. By combining **4-bit quantization** and **Parameter-Efficient Fine-Tuning (PEFT)** techniques, we significantly reduce computational requirements while maintaining high model performance. This work focuses on adapting LLMs using the MedMCQA dataset, achieving impressive results with reduced resource consumption.
+This repository contains the implementation and results of a study on efficient fine-tuning of large language models (LLMs) for the medical domain. By combining 4-bit quantization and Parameter-Efficient Fine-Tuning (PEFT) techniques, such as LoRA (Low-Rank Adaptation), we significantly reduce computational requirements while maintaining high model performance. The study uses GEMMA-2B, a large-scale model, and adapts it to the medical domain using the MedMCQA dataset. This work achieves impressive results with reduced resource consumption while ensuring model accuracy and efficiency.
 
 ## 🚀 Key Features
 - **4-bit Quantization**: Implemented using the `bitsandbytes` library, enabling a 75% reduction in model size while maintaining performance.
